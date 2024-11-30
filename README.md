@@ -44,3 +44,9 @@ yarn preview
 yarn dev
 ```
 Эта команда запускает сервер разработки и открывает проект по адресу http://localhost:5173/
+
+![screen1](https://github.com/user-attachments/assets/de058145-a6f0-47c6-aae4-505d3059280a)
+
+![screen2](https://github.com/user-attachments/assets/187ff3c6-a8db-4f46-aafc-dd594c960e0c)
+
+![screen3](https://github.com/user-attachments/assets/fd556256-8dfd-4620-b54b-890a59e4089e)
