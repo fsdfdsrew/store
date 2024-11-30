@@ -1,35 +1,46 @@
-# store
+# Фронтенд инструкция
 
-This template should help get you started developing with Vue 3 in Vite.
+**Описание**
 
-## Recommended IDE Setup
+В проекте разделены фронтенд (Vue.js) и бэкенд (FastAPI)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Шаг 1: Установка Node.js и Yarn**
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+Для работы с фронтендом вам необходимо установить Node.js и Yarn.
 
 ```sh
-yarn
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
 ```
 
-### Compile and Hot-Reload for Development
+Установка Yarn
+```sh
+npm install --global yarn
+```
 
+**Шаг 2: Установка зависимостей**
+
+Перейдите в директорию фронтенд проекта:
+```sh
+cd путь/к/проекту/frontend
+```
+
+Установите все зависимости:
+```sh
+yarn install
+```
+
+**Шаг 3: Запуск фронтенда**
+
+Для запуска проекта выполните команду:
+```sh
+yarn preview
+```
+Эта команда запускает сервер и открывает проект по адресу http://localhost:4173/
+
+Также можно запустить проект выполнив команду
 ```sh
 yarn dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+Эта команда запускает сервер разработки и открывает проект по адресу http://localhost:5173/
