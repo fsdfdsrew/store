@@ -53,3 +53,7 @@ uvicorn main:app --reload
 Сервер будет запущен по адресу http://127.0.0.1:8000
 
 Для ознакомления с документацией, перейдите по адресу http://127.0.0.1:8000/docs#/
+
+![screen4](https://github.com/user-attachments/assets/6264f467-3fed-45f7-a47d-c9c8de9d5489)
+
+![screen5](https://github.com/user-attachments/assets/902f6115-b819-4e07-b43f-7013e3b74c5f)
